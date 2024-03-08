@@ -76,15 +76,19 @@ Dhairyah and Huzaifa for proof reading and suggestions for this README.
 
 ## FAQs
 
-```
-Q: How to tell if my webpage is deploying
-A: By switching the branch to gh-pages, you
-```
+### Q: How to tell if my webpage is deploying?
 
-```
-Q: Why my page is not loading properly
-A:
-```
+A: By switching the branch to gh-pages, you can see the deploying process. It will be oranage when it is deploying, and like in picture when it is done.
+![](InstrImg/deploy.png)
+
+
+### Q: Why my page is not loading properly?
+
+A: Make sure you are following step 5 in the instruction, the `baseurl` and `url` is where the browser getting all the resources it needs to render the page.
+
+### Q: Why my GitHub Pages is not deploying?
+
+A: Make sure you give the action permission mentioned in step 4.
 
 ## License
 
