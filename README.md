@@ -9,7 +9,7 @@ GitHub Pages, user site. To learn how to set up the project locally for setting 
 
 As mentioned Etter's book on modern technical writing, this is a way to host a document on a static page. Which is your resume in this case. By hosting it online, you do not have to worry about having to resend it to potential reader whenever you update.
 
-### Prerequisites
+## Prerequisites
 
 To get started, the following are required:
 
@@ -19,12 +19,12 @@ To get started, the following are required:
 - A bit of technical vocabulary about Git
 - A Markdown resume
 
-### Instruction
+## Instruction
 
-1) #### Log in to your GitHub account.
-2) #### Go to this [page](https://github.com/MinhPhan23/MinhPhan23.github.io) (repository)
+1) ### Log in to GitHub account
+2) ### Go to the [repository](https://github.com/MinhPhan23/MinhPhan23.github.io)
    Preferably you are reading this document on the repository. 
-3) #### Fork the repository you just go to.
+3) ### Fork the repository
 - Scroll to the top of your screen ![](InstrImg/ScrollUp.gif)
 - Create a new repository name with the format `<github-username>.github.io` ![](InstrImg/fork.png)
 - Click `Create fork`
@@ -32,14 +32,14 @@ To get started, the following are required:
   
   This is what Etter meant by in the "Help Others Write" section in the book. GitHub or other version control is very powerful in collaboration in a project. When I make a project public on GitHub, every user can see it, and they can request to make changes through a procedure set up by me. With this everyone can contribute if they want, and this has been proven useful through a lot of other open-source project (public project).
 
-4) #### Go to `Setting` and give `workflow permissions`
+4) ### Give `workflow permissions`
 - Go to `Setting`
 - Click on `Action` on the left panel
 - Choose `General`
 - Select `Allow all actions and reusable workflows` in `Actions permissions`
 - Select `Read and write permissions` in `Workflow permissions` ![](InstrImg/ActionPerm.gif)
  
-5) #### Edit the `_config.yml` file
+5) ### Modify the `_config.yml` file
 - Click on the `_config.yml` file
 - Click on the pen icon on the top right of the text
 - Use the find command `command-F` and type in `baseurl`
@@ -50,15 +50,17 @@ To get started, the following are required:
 
    `_config.yml` is the main file for `Jekyll`, one of the static site generators mentioned by Etters. Jekyll can have a large learning curve but easy to start and use nonetheless. Jekyll is popular for GitHub Pages because they have Jekyll built-in. Jekyll also have a big community and a variety of templates/themes you can choose like this one.
 
-6) #### Wait 1-2 minutes for GitHub Pages to build and deploy  
-7) #### Goto Deployments
+6) ### Build and deploy
+   Wait 1-2 minutes for GitHub Pages to build and deploy
+
+7) ### Go to Deployments
    ![](InstrImg/Deployment1.png)
 
-8) #### Click on the link 
+8) ### Visit the site 
    ![](InstrImg/Deployment2.png)  
 - Or goto `https://<github-username>.github.io`
 
-### Customization
+## Customization
 
 To replace the template with the content of your resume, goto `_pages -> about.md`, edit and paste in the content of your resume in Markdown.
 ![](InstrImg/customize.png)
