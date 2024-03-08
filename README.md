@@ -14,7 +14,7 @@ To get started, the following are required:
 - A working computer with Internet connection
 - A pupolar browser, Chrome is recommended
 - A GitHub account
-- A bit of vocabulary
+- A bit of technical vocabulary about Git
 - A Markdown resume
 
 ### Instruction
@@ -27,43 +27,58 @@ To get started, the following are required:
    - Create a new repository name with the format `<github-username>.github.io` ![](InstrImg/fork.png)
    - Click `Create fork`
    - If the repository already exist, delete it and repeat step 3.
-4) Edit the `_config.yml` file
+4) Go to `Setting` and give `workflow permissions`
+   - Go to `Setting`
+   - Click on `Action` on the left panel
+   - Choose `General`
+   - Select `Allow all actions and reusable workflows` in `Actions permissions`
+   - Select `Read and write permissions` in `Workflow permissions`
+   ![](InstrImg/ActionPerm.gif)
+5) Edit the `_config.yml` file
    - Click on the `_config.yml` file
-5) Go to Setting
-   - Click on Action on the left panel
-   - Choose General
-6) Give workflow permissions
-   - Select Allow all actions and reusable workflows in Actions permissions
-   - Select Read and write permissions in Workflow permissions
-7) Wait 2-3 minutes for GitHub Pages to build and deploy
-8) Goto Deployments
-9)  Click on the link and walah  
+   - Click on the pen icon on the top right of the text
+   - Use the find command `command-F` and type in `baseurl`
+   - Find the text `baseurl`, make sure that it is empty
+   - Change the text at `url` to the format `https://<github-username>.github.io`
+   - Click on `Commit changes`
+   - Click on `Commit changes` again
+   ![](InstrImg/changeConfig.gif) 
+6) Wait 1-2 minutes for GitHub Pages to build and deploy  
+7) Goto Deployments
+   ![](InstrImg/Deployment1.png) 
+8) Click on the link and walah
+   ![](InstrImg/Deployment2.png)  
+   - Or goto `https://<github-username>.github.io` and walah
 
 ### Customization
+
+To replace the template with the content of your resume, goto `_pages -> about.md`, edit and paste in the content of your resume in Markdown.
+![](InstrImg/customize.png)
 
 <a id="resources"></a>
 ## More resources
 
-- Markdown tutorial
-- The README from the author of this theme.
-- GitHub tutorial https://docs.github.com/en/get-started/start-your-journey/hello-world
-- How GitHub Pages works
-
+- [Markdown tutorial](https://www.markdowntutorial.com/)
+- [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/)
+- [GitHub tutorial](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+- [GitHub Pages tutorial](https://docs.github.com/en/pages/quickstart)
+- The [README](https://github.com/alshedivat/al-folio/blob/master/README.md) from the author of this theme.
 
 ## Authors and Acknowledgements
 
-  - **Maruan** - *Provided Jekyll Theme* -
-    [alshedivat](https://github.com/alshedivat)
+- **Maruan** - *Provided Jekyll Theme* - [alshedivat](https://github.com/alshedivat)
 
 See also the list of
 [contributors](https://github.com/alshedivat/al-folio/graphs/contributors)
 who participated in this project.
 
+Dhairyah and Huzaifa for proof reading and suggestions for this README.
+
 ## FAQs
 
 ```
 Q: How to tell if my webpage is deploying
-A: 
+A: By switching the branch to gh-pages, you
 ```
 
 ```
