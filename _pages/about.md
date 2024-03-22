@@ -87,11 +87,18 @@ social: true # includes social icons at the bottom of the page
 - Linked individual game scenes and game assets created by team members, delivered the final game to be presented at the event.
 
 [**Farmony**](https://github.com/MinhPhan23/Farmony)  
-*November 2022*  
+*October 2022 - February 2023*  
 *7-day game music jam project using Processing and Java*  
 - Developed the gameplay logic and interfaces for all 15 classes with two developers.
 - Built the hierarchy for 5 classes of interactable objects in the game. Set up all assets and presets for the game.
 - Developed the script structure and the conversation system for the game using linked list, improving maintainability and loading speed.
+
+[**Costco Parking Simulator**](https://github.com/Marshmallows7920/CSSAGameJam2022)  
+*February 2022*  
+*2-day game jam project using Unity and C#*  
+- Ideated a game with the theme ”space” and developed the gameplay logic with a group of 8 developers.
+- Designed art assets in Unity using available packages and open-source art.
+- Designed the layout of 5 levels representing 5 parking scenarios for the game, keeping the game interesting with increasing difficulty level.
 
 [**Costco Parking Simulator**](https://github.com/Marshmallows7920/CSSAGameJam2022)  
 *February 2022*  
@@ -124,3 +131,13 @@ social: true # includes social icons at the bottom of the page
 - Organized competitions like .devChamp, .Hackathon, encouraging students to compete and demonstrate different skills in computer science along with multiple social events, creating a safe space for computer science students to meet and make connections on campus.
 - Increased the total number of attendees across all 7 events to over 400 students.
 - Hosted over 10 hours of exam crams sessions for first and second-year computer science courses, helping students prepare for exams.
+
+**Gia Dinh High School's Science and Engineering Club**
+*January 2019 - September 2022*  
+*Vice President*  
+*Advisor*
+**About the organization:**  A club that organizes meetings, workshops, events, and competitions about Arduino
+- Organized and hosted weekly club meetings about Arduino, engineering, and C++ programming skills, creating a place for students to design, build, and program their projects using the Arduino Starter Kit.
+- Designed the syllabus for the workshop series on Line Follower Robot to help students prepare for the school robot racing competition.
+- Coordinated and designed the club's science fair "Do it yourself" projects using Arduino and compatible electrical components. 
+- Four projects: Gimbal, Soda Dispenser, Self-balancing Robot, and Gesture Control Car were successfully showcased during the event.
